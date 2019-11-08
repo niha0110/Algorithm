@@ -25,6 +25,7 @@ void selectionSort::sort()
 
 void selectionSort::print()
 {
+	std::cout << "Selection Sort:" << std::endl;
 	for (int i = 0; i < size; i++)
 	{
 		std::cout << arrayToSort[i] << " ";

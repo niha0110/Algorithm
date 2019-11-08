@@ -151,11 +151,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="insertionSort.cpp" />
     <ClCompile Include="selectionSort.cpp" />
     <ClCompile Include="Sorting.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="insertionSort.h" />
     <ClInclude Include="selectionSort.h" />
+    <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

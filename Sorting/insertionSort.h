@@ -1,19 +1,20 @@
 #pragma once
+
 #include "Sorting.h"
 
-class selectionSort: public Sorting
+class insertionSort: public Sorting
 {
 private:
-	int *arrayToSort;
+	int* arrayToSort;
 	int size;
 public:
-	selectionSort()
+	insertionSort()
 	{
 		arrayToSort = new int[5]{ 3,4,2,7,1 };
 		size = 5;
 	}
-	selectionSort(int arr[], int s) :
-		arrayToSort(new int [s]), size(s) 
+	insertionSort(int arr[], int s) :
+		arrayToSort(new int[s]), size(s)
 	{
 		for (int i = 0; i < s; i++)
 			arrayToSort[i] = arr[i];
